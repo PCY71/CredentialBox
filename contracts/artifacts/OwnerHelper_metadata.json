@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "OwnerTransferPropose",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CredentialBox.sol": "OwnerHelper"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CredentialBox.sol": {
+			"keccak256": "0xceba7710860a62e16c142bb9e54eec33d017cecd02bd3a73ea96978abd6bf642",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://caf66c83ba6c0a545b5bfadc28fbaf43766ebe9c65ce2278f65dc5e2cc9aaaf0",
+				"dweb:/ipfs/QmNdqciBZ1HMibf2vJVoW1TNeguqhdsJwjb62Y9eXFfJBG"
+			]
+		}
+	},
+	"version": 1
+}
