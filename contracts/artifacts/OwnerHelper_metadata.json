@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.10+commit.fc410830"
+		"version": "0.8.11+commit.d7f03943"
 	},
 	"language": "Solidity",
 	"output": {
@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"contracts/CredentialBox.sol": {
-			"keccak256": "0xceba7710860a62e16c142bb9e54eec33d017cecd02bd3a73ea96978abd6bf642",
+			"keccak256": "0xe531bd0e344dd73aeda960bcdddfcdd9ca9b71d27aea8a756cad777a3990b973",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://caf66c83ba6c0a545b5bfadc28fbaf43766ebe9c65ce2278f65dc5e2cc9aaaf0",
-				"dweb:/ipfs/QmNdqciBZ1HMibf2vJVoW1TNeguqhdsJwjb62Y9eXFfJBG"
+				"bzz-raw://ca2ba14995edd3370296847176befb3bf4b8bbff42606cacf303843d5fee3af8",
+				"dweb:/ipfs/QmQGvYgo3k55cMzoekaigeoMEp9dcr6x4iEYbVzkW1Bi5J"
 			]
 		}
 	},
